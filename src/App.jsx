@@ -1,39 +1,36 @@
-import React from 'react'
-import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Header from './Components/Header/Header.jsx'
-import Footer from './Components/Footer/Footer.jsx'
-import Home from './Components/HomeComponents/Home/Home.jsx'
-import AboutUs from './Components/AboutUs/AboutUs.jsx'
-import Menu from './Components/Menu/Menu.jsx'
-import Portfolio from './Components/Portfolio/Portfolio.jsx'
-import PortfolioFeed from './Components/PortfolioFeed/PortfolioFeed.jsx'
-import Services from './Components/Services/Services.jsx'
-import Contact from './Components/Contact/Contact.jsx'
+import React from "react";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
+import Layout from "./Components/Layout/Layout.jsx";
+import Home from "./Components/HomeComponents/Home/Home.jsx";
+import AboutUs from "./Components/AboutUs/AboutUs.jsx";
+import Portfolio from "./Components/Portfolio/Portfolio.jsx";
+import PortfolioFeed from "./Components/PortfolioFeed/PortfolioFeed.jsx";
+import Services from "./Components/Services/Services.jsx";
+import Contact from "./Components/Contact/Contact.jsx";
+import Menu from "./Components/Menu/Menu.jsx";
 
-const Layout = ({ children }) => (
-  <>
-    <Header />
-    {children}
-    <Footer />
-  </>
-);
+const router = createHashRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: "about", element: <AboutUs /> },
+      { path: "portfolio", element: <Portfolio /> },
+      { path: "portfoliofeed", element: <PortfolioFeed /> },
+      { path: "services", element: <Services /> },
+      { path: "contact", element: <Contact /> },
+    ],
+  },
+  {
+    path: "/menu",
+    element: <Menu />,
+  },
+]);
 
 const App = () => {
-  return (
-    <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout><Home /></Layout>} />
-          <Route path="/about" element={<Layout><AboutUs /></Layout>} />
-          <Route path="/portfolio" element={<Layout><Portfolio /></Layout>} />
-          <Route path="/portfoliofeed" element={<Layout><PortfolioFeed /></Layout>} />
-          <Route path="/services" element={<Layout><Services /></Layout>} />
-          <Route path="/contact" element={<Layout><Contact /></Layout>} />
-          <Route path="/menu" element={<Menu />}/>
-          
-        </Routes>
-    </BrowserRouter>
-  )
-}
+  return <RouterProvider router={router} />;
+};
 
-export default App
+export default App;
