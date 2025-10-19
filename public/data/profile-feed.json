@@ -1,0 +1,63 @@
+{
+  "profile-page": {
+   
+    "p-f-container": {
+      "class": "p-f-container",
+      "images": [
+        { "class": "p-f-photo", "src": "/images/portfolio-images/profile-feed-photo.jpg", "alt": "" },
+        { "class": "p-f-photo", "src": "/images/portfolio-images/Rectangle 32 (1).png", "alt": "" }
+      ],
+      "text": "OUR interior design portfolio"
+    }
+  },
+  "work-photos": {
+    "class": "work-photos",
+    "items": [
+      { "src": "/images/portfolio-images/Rectangle 36.png", "alt": "" },
+      {
+        "block": {
+          "img": { "src": "/images/portfolio-images/courtney-thomas-interior-design-services 1.png", "alt": "" },
+          "p": "FIND OUT HOW WE CAN HELP! HERE ARE THE DESIGN SERVICES WE OFFER FOR LARGE & SMALL SCALE PROGECT"
+        }
+      },
+      { "type":"div", "src": "/images/portfolio-images/Rectangle 39.png", "alt": "" },
+      { "src": "/images/portfolio-images/Rectangle 40.png", "alt": "" },
+      { "src": "/images/portfolio-images/Rectangle 47 (1).png", "alt": "" },
+      { "src": "/images/portfolio-images/Rectangle 41.png", "alt": "" },
+      {
+        "block": {
+          "img": { "src": "images/portfolio-images/courtney-thomas-design-process 1.png", "alt": "" },
+          "p": "FIND OUT ABOUT OUR DESIGN PROCESS & SEE HOW WE ACHIEVE GREAT SUCCESS FOR OUR CLIENTS"
+        }
+      },
+      { "src": "/images/portfolio-images/Rectangle 42.png", "alt": "" },
+      { "src": "/images/portfolio-images/Rectangle 44 (1).png", "alt": "" },
+      { "src": "/images/portfolio-images/Rectangle 45.png", "alt": "" },
+      { "src": "/images/portfolio-images/Rectangle 46.png", "alt": "" },
+      { "src": "/images/portfolio-images/Rectangle 47.png", "alt": "" },
+      { "src": "/images/portfolio-images/Rectangle 48.png", "alt": "" },
+      { "src": "/images/portfolio-images/Rectangle 50.png", "alt": "" },
+      {
+        "block": {
+          "img": { "src": "/images/portfolio-images/contact-courtney-thomas 1.png", "alt": "" },
+          "p": "INSPIRED? WE’D LOVE TO HERE FROM YOU. SEND US AN EMAIL OR GIVE A CALL."
+        }
+      }
+    ]
+  },
+  "biulding": { "class": "biulding", "title": "WHY US ?" },
+  "cards": {
+    "class": "cards",
+    "items": [
+      { "card-head": "1.Premium Quality", "card-pros": ["Durable materials with long-lasting strength.", "Built to serve you for many years."] },
+      { "card-head": "2.Modern Designs", "card-pros": ["Stylish collections for every taste.", "Perfect fit for any home space."] },
+      { "card-head": "3.Affordable Prices", "card-pros": ["Great value at competitive rates.", "Seasonal discounts always available."] },
+      { "card-head": "4.Fast & Safe Delivery", "card-pros": ["Delivered within 48–72 hours.", "Safe packaging and easy tracking."] },
+      { "card-head": "5.Professional Assembly", "card-pros": ["Expert team for quick setup.", "Clean, hassle-free installation."] },
+      { "card-head": "6.Warranty & Easy Return", "card-pros": ["Guaranteed against defects.", "Simple exchange and return policy."] },
+      { "card-head": "7.Customer Support 24/7.", "card-pros": ["Always here when you need us.", "Quick answers, friendly service."] },
+      { "card-head": "8.Eco-Friendly Choice", "card-pros": ["Sustainable wood and safe paints.", "Better for your home and planet."] }
+    ]
+  }
+  
+}

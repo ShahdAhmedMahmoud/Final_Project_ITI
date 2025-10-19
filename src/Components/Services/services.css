@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;  
+}
+body{
+    font-family: 'Truculenta', sans-serif;
+}
+
+/* mt-40{
+    margin-top: 40px;
+} */
+.banner {
+    position: relative;
+    height: 60vh;
+    background: url('/public/images/services/4eefbcef37e27339e07aa30d85a833abcc16149e (1).jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: 1;
+}
+.green-color{
+    color:#90b300;
+}

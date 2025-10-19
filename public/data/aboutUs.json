@@ -1,0 +1,42 @@
+{
+  "main": {
+    "text": "We believe that outstanding customer experiences are a direct result of <span class='hi'>intentional planning</span> and <span class='hi'>pro-activity</span> at the outset of every project."
+  },
+  "whoWeAre": {
+    "logo": "public/images/about/logo.jpeg",
+    "title": "Who We Are",
+   "description": [
+  "Art House USA Interior & Exterior Design, we cherish the relationships we nurture with clients. We thrive on creating beautiful and functional spaces for every unique personality that walks through our doors. Our experience, expertise, and professionalism allow us to consistently complete each project on-time, on-budget, and with exceptional results. We are motivated by a desire to incorporate our client’s unique tastes and lifestyles into tastefully-designed spaces. Our team is committed to bringing your dreams to life, and we’ll be with you every step of the way."
+]
+
+  },
+  "stats": [
+    { "num": "350+", "label": "Full Time Employees" },
+    { "num": "230M+", "label": "Annual Revenues" },
+    { "num": "1000+", "label": "Manufacturing Partners" },
+    { "num": "16,000+", "label": "Annual Deliveries" }
+  ],
+  "leadership": [
+    {
+    "photo": "public/images/about/leader-1.jpeg",
+      "name": "Daniel Lee",
+      "role": "Chief Executive Officer (CEO)",
+      "bio": "With over 15 years of experience in design leadership, Daniel is passionate about blending creativity with strategy. He leads the team with a vision of delivering innovative, timeless, and functional spaces that truly reflect each client’s lifestyle."
+    },
+    {
+      "photo": "public/images/about/leader-2.jpeg",
+      "name": "James Carter",
+      "role": "Creative Director",
+      "bio": "James brings a bold artistic perspective to every project. Known for his attention to detail and fresh design concepts, he ensures every space tells a unique story while staying aligned with the company’s values and client expectations."
+    }
+  ],
+  "instagram": [
+   "public/images/about/img-1.jpeg",
+   "public/images/about/img-2.jpeg",
+   "public/images/about/img-3.jpeg",
+   "public/images/about/img-1.jpeg",
+   "public/images/about/img-2.jpeg",
+   "public/images/about/img-3.jpeg"
+
+  ]
+}

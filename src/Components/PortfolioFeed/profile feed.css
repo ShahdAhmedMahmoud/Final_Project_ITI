@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Truculenta", sans-serif;
+}
+
+.img-link{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 7px;
+}
+.img-link img{
+    width: 100% !important;
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    object-fit: cover !important;
+}
+.text-link{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5) !important;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.link{
+    display: block;
+    margin-top: 10px;
+    color: #90B300;
+    padding: 2.5rem 2.8rem;
+    border-radius: 50%;
+    border: #90B300 solid 1px;
+}
+.p-f-container {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-f-photo {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.p-f-container p {
+  color: white;
+}
+.p-f-container span {
+  color: #9acd32;
+}
+.work-photos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.work-photos img {
+  width: 130px;
+  margin-bottom: 5px;
+}
+.work-photos div img {
+  width: 100px;
+}
+.work-photos div {
+  width: 130px;
+  background-color: #f1f1f1;
+  text-align: center;
+  height: 130px;
+  font-size: 7px;
+  cursor: pointer;
+}
+
+.biulding {
+  font-weight: 200;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgb(193, 190, 190);
+  text-align: center;
+
+}
+.biulding h2 {
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 32px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.advantages {
+  width: 250px;
+  height: 250px;
+  background-color: #9acd32;
+  color: white;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s all ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+}
+.advantages:hover {
+  transform: scale(1.1);
+}
+
+.card-head {
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-pros {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.card-pros li {
+  text-align: center;
+}
+@media only screen and (min-width: 612px) and (max-width: 900px) {
+  .work-photos {
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 2rem;
+  }
+  .work-photos img {
+    width: 170px;
+    margin-bottom: 10px;
+  }
+  .work-photos div img {
+    width: 120px;
+  }
+  .work-photos div {
+    width: 170px;
+    background-color: #f1f1f1;
+    text-align: center;
+    height: 170px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .work-photos {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 2rem;
+  }
+  .work-photos img {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .work-photos div img {
+    width: 180px;
+  }
+  .work-photos div {
+    width: 300px;
+    background-color: #f1f1f1;
+    text-align: center;
+    height: 300px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+  }
+  .advantages {
+    width: 240px;
+    height: 240px;
+    background-color: #9acd32;
+    color: white;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .card-head {
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+    text-align: center;
+  }
+  .card-pros {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+h2,
+h3 {
+  margin: 5px 0;
+}
+p {
+  padding: 3px;
+  margin: 0;
+}
+
+    

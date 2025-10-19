@@ -1,0 +1,286 @@
+.bedroom-img{
+            width: 80%;
+            height: auto;
+            display: block;
+            
+
+    }
+        .left-side-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 40px;
+             margin-bottom: 50px;
+            
+    }   
+    .apartment{
+        font-size: 10px;
+        color: #9acd32;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .size{
+        display: block;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .bedrooms{
+        font-size: 25px;
+        color: #9acd32;
+        display: block;
+    }
+        .descripe-table {
+            margin: 15px 0;
+            overflow: hidden;
+            border-left: none;
+            border-right: none;
+    }
+        
+
+        .descripe {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 10px;
+            font-size: 8px;
+            border-top: 1px solid #9acd32;
+            min-width: 300px; 
+            /* max-width: 300px; */
+             padding: 8px 12px;
+    }
+        .descripe div:last-child {
+            min-width: 30px;   
+            text-align: right;
+            font-weight: bold;
+    }
+    .i{
+        color: #9acd32;
+        margin-right: 10px;
+    }
+
+    .descripe:hover{
+        background-color: #9acd32;    
+         color: white;
+         .i{
+            color: white;
+         } 
+    }
+        /* .isolid{
+        color:rgb(196, 228,15) ;
+    } */
+        
+        .img-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }   
+        
+        .area{
+            font-size: 10px;
+        }
+        @media only screen and (min-width : 900px) {
+            .app-container{
+            display: grid;
+            grid-template-columns: 2fr 3fr;       
+                      
+        }
+        .bedroom-img{
+            padding-top: 50px;
+            width: 80%;  
+            height: 80%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+            /* padding-right: 100px; */
+        }
+        .all-section{
+            display: flex;
+            justify-content: space-around;
+            
+        }             
+    }
+    
+    @media only screen and (min-width : 600px) and (max-width:900px) {
+        .app-container{
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+        }
+        .bedroom-img {
+            padding-top: 50px; 
+            width: 300px;
+            object-fit: cover; 
+            display: block;
+            margin: 0 auto;
+        }
+        .all-section{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .descripe{
+            min-width: 200px;
+        }
+        
+        
+    }
+
+    /* for Footer */
+    /* up one */
+    .up-part-footer{
+        width: 100%;
+        height: 90px;
+        position: relative;
+        display: flex;
+        justify-content: center; 
+        align-items: center;     
+        gap: 20px;               
+        font-size: 22px;
+        
+    }
+    .up-part-footer-img{ 
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+        position: absolute;
+        z-index: -1;    
+    }
+    
+
+    .button-contact{
+        background-color: #0d1d1d; 
+        color: white;              
+        font-size: 10px;       
+        font-weight: bold;       
+        padding: 10px 20px;        
+        border: 1px solid white;   
+        text-transform: uppercase; 
+        letter-spacing: 2px; 
+        cursor: pointer;        
+    }
+    .button-contact:hover{
+        padding: 16px 24px;
+    }
+    @media only screen and (min-width:900px) {
+        .up-part-footer{
+            justify-content:space-evenly;
+            font-size: 28px;
+        }
+        .button-contact{
+             margin-right: 200px;
+        }
+    }
+    @media only screen and (max-width:900px) and (min-width:500px) {
+        .up-part-footer{
+            justify-content:space-evenly;
+            font-size: 24px;
+        }
+        
+    }
+    /* bottom one */
+    
+    
+   .down-footer {
+    
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 20px;
+        
+    }
+    .down-container-2 a:first-child .p-links {
+    color:#9acd32; 
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 30px;
+    cursor: text;
+}
+
+    .text-gray-300{
+        width: 300px;
+    }
+    .call-num,.call-word{
+        color: #9acd32;
+    }
+
+    .down-container-4{
+    color: rgb(230, 219, 219);
+    text-align: center;
+
+    }
+    .down-footer > div {
+    transform: scale(0.7);   
+    transform-origin: top center; 
+    }
+
+    .down-footer-img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;    
+    }
+    .down-container-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;    
+        height: 250px;
+    }
+    .arthouse-img{
+        width: 80px;
+
+    }
+    /*  */
+    .logos{
+        display: flex;
+    }
+    .fa-brands{
+        color: #9acd32;
+        width: 20px;
+        height: auto;
+        background:transparent;
+        border: none;
+        margin-right: 15px;
+    }
+    .a-links{   
+        color: rgb(230, 219, 219);
+        text-decoration: none;    
+    }
+    .a-links:hover{
+        color: #9acd32;
+        
+    }
+    .p-links{
+        border-bottom: 1px solid;
+    }
+   .down-container-3 h2 {
+    color: #9acd32;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.insta-photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, auto); 
+    gap: 10px; 
+}
+
+.insta-photos img {
+    width: 80px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+    @media only screen and (min-width:531px) {
+        .down-container-1{
+            color: rgb(230, 219, 219);
+        }
+        .p-footer-1{
+            color: rgb(230, 219, 219);
+        }    
+    }
+    

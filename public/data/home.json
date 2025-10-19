@@ -1,0 +1,138 @@
+{
+  "hero": {
+    "subtitle": "MODERN HOME SOLUTIONS",
+    "title": "Transform your home with our amazing",
+    "highlight": "curators",
+    "videoUrl": "https://example.com/video.mp4",
+    "services": [
+      
+      {
+        "title": "Renovations",
+        "description": "Restore your living quarters"
+      },
+            {
+        "title": "Interior Design",
+        "description": "Personalize your space with modern style"
+      },
+      {
+        "title": "Landscaping",
+        "description": "Beautiful gardens and outdoor spaces"
+      }
+    ]
+  },
+  "services": [
+    {
+      "title": "Full-Service Interior & Exterior Design in Art House USA",
+      "description": "Art House USA  Interior & Exterior Design, we cherish the relationships we nurture with clients. We thrive on creating beautiful and functional spaces for every unique personality that walks through our doors. Our experience, expertise, and professionalism allow us to consistently complete each project on-time, on-budget, and with exceptional results. We are motivated by a desire to incorporate our client’s unique tastes and lifestyles into tastefully-designed spaces. Our team is committed to bringing your dreams to life, and we’ll be with you every step of the way.",
+      "image": null
+    },
+    {
+      "title": "Elevate Your Spaces",
+      "description": "Art House USA Interior & Exterior Design, we cherish the relationships we nurture with clients. We thrive on creating beautiful and functional spaces for every unique personality that walks through our doors. Our experience, expertise, and professionalism allow us to consistently complete each project on-time, on-budget, and with exceptional results. We are motivated by a desire to...",
+      "image": "images/home/a45552c56b4c00033aee9da702e44c707504330d.jpg" 
+    }
+  ],
+    "iconUrl":"images/home-images/icon.jpg",
+    "amenities": [
+        {
+            "name": "Private Security",
+            "icon": "fa-solid fa-shield-halved",
+            "description": "Windows, skylights, vents, and glass portions of doors helps."
+        },
+        {
+            "name": "Outdoor Landscaping",
+            "icon": "fa-solid fa-seedling",
+            "description": "Gardens, patios, and green spaces designed for beauty and functionality."
+        },
+        {
+            "name": "Smart Lighting",
+            "icon": "fa-solid fa-lightbulb",
+            "description": "Innovative automated interior and exterior lighting solutions."
+        },
+        {
+            "name": "Interior Furnishing",
+            "icon": "fa-solid fa-chair",
+            "description": "Custom furniture and layout plans for comfort and style."
+        },
+        {
+            "name": "Swimming Pools",
+            "icon": "fa-solid fa-person-swimming",
+            "description": "Modern pool designs with aesthetic and safety considerations."
+        },
+        {
+            "name": "Custom Doors & Windows",
+            "icon": "fa-solid fa-door-open",
+            "description": "Unique premium designs for doors, windows, and partitions."
+        },
+        {
+            "name": "Color Consultation",
+            "icon": "fa-solid fa-palette",
+            "description": "Expert advice on color schemes for walls, furniture, and decor."
+        },
+        {
+            "name": "Natural Ventilation",
+            "icon": "fa-solid fa-wind",
+            "description": "Skylights, vents, and open spaces for energy efficiency and airflow."
+        }
+    ],
+
+    "projects": [
+        {
+            "img": "images/home-images/our-works-1.jpg",
+            "tittle": "MOUNTAIN MODERN",
+            "category": "RESIDENTIAL"
+        },
+        {
+            "img": "images/home-images/our-works-2.jpg",
+            "tittle": "MODERN LIVING",
+            "category": "RESIDENTIAL"
+        },
+        {
+            "img": "images/home-images/our-works-3.jpg",
+            "tittle": "CITY DINING",
+            "category": "COMMERCIAL"
+        },
+        {
+            "img": "images/home-images/our-works-4.jpg",
+            "tittle": "NATURE INSIDE",
+            "category": "RESIDENTIAL"
+        },
+        {
+            "img": "images/home-images/our-works-5.jpg",
+            "tittle": "HILLS BOROUGH DRIVE",
+            "category": "RESIDENTIAL"
+        },
+        {
+            "img": "images/home-images/our-works-6.jpg",
+            "tittle": "URBAN COMFORT",
+            "category": "RESIDENTIAL"
+        }
+    ],
+
+        "solutions":"Art House USA  Interior & Exterior Design, we cherish the relationships we nurture with clients. We thrive on creating beautiful and functional spaces for every unique personality that walks through our doors. Our experience, expertise, and professionalism allow us to consistently complete each project on-time, on-budget.",
+
+  "apartment": {
+    "type": [
+      { "label": "APARTMENT TYPE", "class": "apartment" },
+      { "label": "83m2/", "class": "size" },
+      { "label": "Three Bedroom", "class": "bedrooms" }
+    ],
+    "area": {
+      "value": {
+        "internal": "100 m",
+        "external": "22 m",
+        "total": "122 m"
+      },
+      "class": "area"
+    },
+    "features": [
+      { "icon": "fa-bed", "name": "BEDROOM", "value": 3, "class": "descripe" },
+      { "icon": "fa-bath", "name": "BATHROOM", "value": 2, "class": "descripe" },
+      { "icon": "fa-car-side", "name": "PARKING", "value": 1, "class": "descripe" },
+      { "icon": "fa-sun", "name": "SUNNY SIDE VIEWS", "value": "YES", "class": "descripe" }
+    ],
+    "image": { "src": "/images/home/bedroom.jpg", "class": "bedroom-img" }
+  }
+  
+ 
+}

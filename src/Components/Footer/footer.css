@@ -1,0 +1,192 @@
+ *{
+            box-sizing: border-box;
+            
+    } 
+        body {
+            font-family: 'Truculenta', sans-serif;
+            color: #333;
+           
+    }
+        h2, h3 {
+            margin: 5px 0;
+    }
+        p{
+            padding: 3px;
+            margin: 0;
+    }
+/* for Footer */
+    /* up one */
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .up-part-footer{
+        width: 100%;
+        height: 90px;
+        position: relative;
+        display: flex;
+        justify-content: center; 
+        align-items: center;     
+        gap: 20px;               
+        font-size: 22px;
+        margin-top: 100px;
+    }
+    .up-part-footer-img{ 
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+        position: absolute;
+        z-index: -1;    
+    }
+    
+
+    .button-contact{
+        background-color: #0d1d1d; 
+        color: white;              
+        font-size: 10px;       
+        font-weight: bold;       
+        padding: 10px 20px;        
+        border: 1px solid white;   
+        text-transform: uppercase; 
+        letter-spacing: 2px; 
+        cursor: pointer;        
+    }
+    .button-contact:hover{
+        transition: 0.3s;
+        transform: scale(1.1);
+    }
+    @media only screen and (min-width:900px) {
+        .up-part-footer{
+            justify-content:space-evenly;
+            font-size: 28px;
+        }
+        .button-contact{
+             margin-right: 200px;
+        }
+    }
+    @media only screen and (max-width:900px) and (min-width:500px) {
+        .up-part-footer{
+            justify-content:space-evenly;
+            font-size: 24px;
+        }
+        .button-contact{
+            margin-right: 60px;
+            padding: 20px 15px;
+        }
+    }
+    /* bottom one */
+    
+    
+   .down-footer {
+    
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 20px;
+        
+    }
+    .down-container-2 a:first-child .p-links {
+    color:#9acd32; 
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 30px;
+    cursor: text;
+}
+    .icon-1{
+        margin-right: 5px;
+    }
+
+    .text-gray-300{
+        width: 300px;
+    }
+    .call-num,.call-word{
+        color: #9acd32;
+    }
+
+    .down-container-4{
+    color: rgb(230, 219, 219);
+    text-align: center;
+
+    }
+    .down-footer > div {
+    transform: scale(0.7);   
+    transform-origin: top center; 
+    }
+
+    .down-footer-img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;    
+    }
+    .down-container-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;    
+        height: 250px;
+    }
+    .arthouse-img{
+        width: 80px;
+
+    }
+    /*  */
+    .logos{
+        display: flex;
+    }
+    .icon-1{
+        color: #9acd32;
+    }
+    .fa-brands{
+        color: #9acd32;
+        width: 20px;
+        height: auto;
+        background:transparent;
+        border: none;
+        margin-right: 15px;
+    }
+    .a-links{   
+        color: rgb(230, 219, 219);
+        text-decoration: none;    
+    }
+    .p-links:hover{
+        color: #9acd32;
+        
+    }
+    .p-links{
+        border-bottom: 1px solid rgb(230, 219, 219);
+    }
+   .down-container-3 h2 {
+    color: #9acd32;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.websites{
+    color: #9acd32;
+    margin-right: 5px;
+}
+.insta-photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, auto); 
+    gap: 10px; 
+}
+
+.insta-photos img {
+    width: 80px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+    @media only screen and (min-width:531px) {
+        .down-container-1{
+            color: rgb(230, 219, 219);
+        }
+        .p-footer-1{
+            color: rgb(230, 219, 219);
+        }    
+    }
+    

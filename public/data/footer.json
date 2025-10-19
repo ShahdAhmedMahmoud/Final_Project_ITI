@@ -1,0 +1,32 @@
+  
+  {
+  
+  "footer": {
+    "contact": {
+      "email": "info@arthouse.com",
+      "address": "21 W Lexington Dr, Clendale",
+      "phone": "(406) 888-8808",
+      "socials": [
+        { "platform": "twitter", "link": "https://www.twitter.com" },
+        { "platform": "instagram", "link": "https://www.instagram.com" },
+        { "platform": "facebook", "link": "https://www.facebook.com" }
+      ]
+    },
+    "links": ["links", "Property on sale", "About us", "Our team", "Terms of use", "Privacy policy"],
+    "instagram": [
+      "INSTAGAM",
+      "/images/footer/insta-1.png",
+      "/images/footer/insta-2.png",
+      "/images/footer/insta-3.png",
+      "/images/footer/insta-4.png",
+      "/images/footer/insta-5.png",
+      "/images/footer/insta-6.png"
+    ],
+    "callSection": {
+      "title": "CALL US",
+      "phone": "(406) 888-8808",
+      "description": "Interior of volumes, space, air, proportion, with certain light and different kind of a mood. These interiors are meant to last forever.",
+      "copyright": "© Interior of volumes, space, air, proportion"
+    }
+  }
+}
