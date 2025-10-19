@@ -1,0 +1,43 @@
+{
+  "services": [
+    {
+      "number": "01",
+      "title": "Interior Design",
+      "description": "Art House USA  Interior & Exterior Design, we cherish the relationships we nurture with clients. We thrive on creating beautiful and functional spaces for every unique personality that walks through our doors. Our experience, expertise, and professionalism allow us to consistently complete each project on-time, on-budget, and with exceptional results. We are motivated by a desire to ",
+      "image": "images/services/c3ef59cd39b91ba701a0d509fe760cc1c5ed44ca.jpg"
+    },
+    {
+      "number": "02",
+      "title": "Exterior Design",
+      "description": "Art House USA  Interior & Exterior Design, we cherish the relationships we nurture with clients. We thrive on creating beautiful and functional spaces for every unique personality that walks through our doors. Our experience, expertise, and professionalism allow us to consistently complete each project on-time, on-budget, and with exceptional results. We are motivated by a desire to ",
+      "image": "images/services/b95edeba5fd79fc9cf1e9acb6df31e2c73e9cbbd.jpg"
+    },
+    {
+      "number": "03",
+      "title": "Architecture",
+      "description": "Art House USA  Interior & Exterior Design, we cherish the relationships we nurture with clients. We thrive on creating beautiful and functional spaces for every unique personality that walks through our doors. Our experience, expertise, and professionalism allow us to consistently complete each project on-time, on-budget, and with exceptional results. We are motivated by a desire to ",
+      "image": "images/services/428a4aec444973ee43100f1597f9d31fdab26785.jpg"
+    },
+    {
+      "number": "04",
+      "title": "Construction",
+      "description": "Art House USA  Interior & Exterior Design, we cherish the relationships we nurture with clients. We thrive on creating beautiful and functional spaces for every unique personality that walks through our doors. Our experience, expertise, and professionalism allow us to consistently complete each project on-time, on-budget, and with exceptional results. We are motivated by a desire to ",
+      "image": "images/services/c8606b3e8c6c6d47fa7cff9478f2493240cd6487.jpg"
+    },
+    {
+      "number": "05",
+      "title": "Renovation",
+      "description": "Art House USA  Interior & Exterior Design, we cherish the relationships we nurture with clients. We thrive on creating beautiful and functional spaces for every unique personality that walks through our doors. Our experience, expertise, and professionalism allow us to consistently complete each project on-time, on-budget, and with exceptional results. We are motivated by a desire to ",
+      "image": "images/services/f9ea3fbd141651457e127492094224167f02aeb5.jpg"
+    }
+  ],
+  "instagrams": [
+    "images/services/b95edeba5fd79fc9cf1e9acb6df31e2c73e9cbbd.jpg",
+    "images/services/4eefbcef37e27339e07aa30d85a833abcc16149e.jpg",
+    "images/services/601d4a367dc65c09799c5a88f9874c738c982ab3.jpg",
+    "images/services/b95edeba5fd79fc9cf1e9acb6df31e2c73e9cbbd.jpg",
+    "images/services/4eefbcef37e27339e07aa30d85a833abcc16149e.jpg",
+    "images/services/601d4a367dc65c09799c5a88f9874c738c982ab3.jpg"
+    
+  ]
+}

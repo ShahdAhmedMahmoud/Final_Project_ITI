@@ -1,0 +1,41 @@
+{
+  "mainImage": {
+    "src": "/images/Contact/Header.jpg",
+    "alt": "Office Interior",
+    "class": "w-full block h-[300px] sm:h-[400px] md:h-[600px] object-cover"
+  },
+  "contactSection": {
+    "title": "GET IN TOUCH",
+    "highlight": "TOUCH",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec lacus vel eros.",
+    "form": {
+      "inputs": [
+        { "type": "text", "placeholder": "Contact name" },
+        { "type": "text", "placeholder": "Street" },
+        { "type": "text", "placeholder": "City" },
+        { "type": "text", "placeholder": "Postcode" },
+        { "type": "text", "placeholder": "Contact Phone" },
+        { "type": "email", "placeholder": "E-mail" }
+      ],
+      "textarea": {
+        "placeholder": "Let's talk about your idea"
+      },
+      "fileUpload": {
+        "label": "Upload Additional file",
+        "icon": "&#8682;"
+      },
+      "checkbox": {
+        "label": "I want to protect my data by signing an NDA"
+      },
+      "submit": {
+        "label": "SUBMIT ›",
+        "type": "submit"
+      }
+    }
+  },
+  "map": {
+    "src": "/images/Contact/map.png",
+    "alt": "Our location",
+    "class": "w-full h-auto min-h-[400px] md:min-h-[550px]"
+  }
+}

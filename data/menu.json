@@ -1,0 +1,29 @@
+{
+  "menu": {
+    "closeButton": {
+      "icon": "fa-solid fa-xmark",
+      "link": "#"
+    },
+    "links": [
+      { "label": "Home", "href": "/" },
+      { "label": "What We Do", "href": "/about" },
+      { "label": "Services", "href": "/services" },
+      { "label": "Portfolio", "href": "/portfoliofeed" },
+      { "label": "Contact Us", "href": "/Contact" }
+    ],
+    "bottomInfo": {
+      "address": "121 W Lexington Dr, Glendale",
+      "email": "info@arthouseusa.com",
+      "phone": "(406) 888-8808",
+      "description": "Interior of volumes, space, air, proportion, with certain light and different kind of a mood. These interiors are meant to last forever.",
+      "copyright": "© Interior of volumes, space, air, proportion",
+      "socials": [
+        { "icon": "fab fa-twitter", "link": "#" },
+        { "icon": "fab fa-facebook", "link": "#" },
+        { "icon": "fab fa-instagram", "link": "#" }
+      ]
+    },
+    "backgroundText": "ART HOUSE USA",
+    "logo": "/images/Menu/Menu.jpg"
+  }
+}

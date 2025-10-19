@@ -1,0 +1,16 @@
+{
+  "header": {
+    "social": [
+      { "icon": "fab fa-facebook-f", "link": "#" },
+      { "icon": "fab fa-instagram", "link": "#" },
+      { "icon": "fab fa-linkedin-in", "link": "#" },
+      { "icon": "fab fa-tiktok", "link": "#" }
+    ],
+    "logo": "ART HOUSE USA",
+    "menuButton": {
+      "id": "menu-btn",
+      "icon": "fa-solid fa-bars",
+      "link": "../Menu/menu.html"
+    }
+  }
+}
